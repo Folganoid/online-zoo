@@ -1,0 +1,177 @@
+:root {
+    --screen-monitor-small: 940px;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1599px) {
+
+ /*
+    *header
+    */
+    header {
+        height: 470px;
+        margin-bottom: 0;
+    }
+    
+        header>img {
+            width: 160%;
+            margin-top: -113px;
+            margin-left: -173px;
+        }
+    
+        header>div {
+            width: var(--screen-monitor-small);
+        }
+
+            .nav_body {
+                width: var(--screen-monitor-small);
+            }
+    
+                .nav_body a:nth-child(2) {
+                    margin-left: 14px;
+                }
+                
+                .nav_body a:nth-child(7) {
+                    margin-left: 207px;
+                }
+
+/*
+* section peek and feed
+*/
+.pick {
+    background: var(--orange-grad);
+    display: flex;
+    padding-top: 39px;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+    .pick__body {
+        width: var(--screen-monitor-small);
+    }
+    
+            .body__text>p:first-child {
+                margin-left: -36px;
+                margin-right: 80px;
+            }
+            .body__text>p:nth-child(2){
+                padding-top: 25px;
+            }
+
+            .body__text>p:nth-child(3){
+                padding-top: 46px;
+                margin-left: 5px;
+            }
+
+        .body__frame {
+            margin-top: 43px;
+            height: 918px;
+        }
+
+            .body__frame>div {
+                width: 810px;
+            }
+
+            .body__frame h2 {
+                padding-top: 21px;
+            }
+            .body__frame>div>p:nth-child(2) {
+                padding-top: 11px;
+                margin-left: -23px;
+                width: 860px;
+
+            }
+                .frame__panda {
+                    padding-top:58px;
+                }
+                    .frame__panda>div:nth-child(1){
+                        padding-top: 93px;
+                        padding-right: 10px;
+                    }
+
+        .frame__amount{
+            padding-top: 44px;
+        }
+            .frame__amount>p {
+                text-align: left;
+                font-weight: 400;
+            }
+            .amount__bar {
+                background: #404950;
+                height: 28px;
+                margin-top: 16px;
+                position: relative;
+            }
+
+                .bar__dots {
+                    width: 810px;
+                }
+                .bar__dots>li:first-child {
+                    display: none;
+                }
+
+                    .dots__line {
+                        width: 780px;
+                        margin-left: -20px;
+                    }
+
+                .bar__sums {
+                    width: 820px;
+                }
+
+                .bar__sums>li:first-child {
+                    display: none;
+                }
+
+        #form__feed {
+            padding-top: 54px;
+        }
+                        #form__feed>div>div>img {
+                            left: 519px;
+                        }
+
+        .pick button {
+            width: 316px;
+        }
+        .body__frame>div>p:last-child{
+            padding-top: 30px;
+        }              
+  
+/*
+* footer
+*/
+footer {
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+    .footer_body {
+        width: var(--screen-monitor-small);
+        justify-content: space-between;
+        position: relative;
+    }
+
+        .footer_body>div:nth-child(1) {
+            flex-basis: 298;
+            margin-left: 1px;
+        }
+
+        .footer_body>div:nth-child(2) {
+            width: 375px;
+            height: 80px;
+            display: flex;
+            align-items: flex-end;
+            justify-content: space-around;
+            position: absolute;
+            bottom: 50px;
+            left:282px;
+        }
+
+
+        .footer_body>div:nth-child(3) {
+            flex-basis: 366px;
+            margin-right: 14px;
+        }
+                .footer_body>div:nth-child(3)>div {
+                    right: -9px;
+                }
+}
